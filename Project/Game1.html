@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="">
+    <link rel="stylesheet" href="style.css">
+    <title>Text Practice</title>
+</head>
+<body>
+    <header>
+    <img id="logo" src="https://goodsrepublic.com/media/binary/005/096/657/5096657.jpg">
+    <h1>Game 1</h1>
+    <nav>
+      <ul>
+        <li><a href="web.html">Home</a></li>
+        <li><a href="Photo.html">Photo</a></li>
+        <li><a href="Paragraph.html">Paragraph</a></li>
+        <li><a href="mini_game.html">Game 2</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="start-screen">
+      <h1 class="main-title">Game Instruction</h1>
+      <p class="instructions">
+        You are a blue cube. Try to get to the yellow checkpoints.
+      </p>
+      <p class="instructions">
+        Use the keyboard arrows to move around.
+      </p>
+      <p class="instructions">You can also use the spacebar to jump.</p>
+      <p class="instructions">Click the button below to start the game</p>
+
+      <div class="btn-container">
+        <button class="btn" id="start-btn">Start Game</button>
+      </div>
+    </div>
+
+    <div class="checkpoint-screen">
+      <h2>Congrats!</h2>
+      <p>You reached the last checkpoint.</p>
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+    <script src="./script.js"></script>
+  </main>
+</body>
+
+</html>   

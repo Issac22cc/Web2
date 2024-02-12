@@ -1,0 +1,162 @@
+body {
+    background: #f5f6f7;
+    color: #1b1b32;
+    font-family: Helvetica;
+    margin: 0;
+  }
+  
+  header {
+    width: 100%;
+    height: 200px;
+    background-color: #1b1b32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    color: white;
+  }
+  
+  header img{
+    object-fit: cover;
+    height: 180px;
+  }
+
+  header h1{
+    margin: 300px
+  }
+  
+  main{
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+  }
+  
+  header h1{
+    font-size: 50px;
+  }
+  
+  #logo {
+    width: max(50px, 18vw);
+    background-color: #0a0a23;
+    aspect-ratio: 5 / 5;
+    padding: 0.4rem;
+  }
+  
+  nav {
+    width: 50%;
+    max-width: 400px;
+    height: 50px;
+  }
+  
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    font-size: 22px;
+    text-decoration: none;
+  }
+  
+  nav > ul{
+    list-style-type: none
+  }
+
+  
+  
+  
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  
+  
+body{
+    background-color: lightyellow;
+}
+
+main > h1{
+    text-align: left;
+    font-size: 50px;
+}
+
+header{
+    text-align: center;
+}
+
+button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	border-radius: 5px;
+	padding: 3px;
+	text-align: center;
+	margin-right: 10px;
+	margin-left: 10px;
+    font-size: 30px;
+	background-color: #77B3BD;
+	color: #FFFFFF;
+    border-style: hidden;
+}
+
+button:hover{
+	background-color: lightblue;
+	color: #FFFFFF;
+}
+
+#score{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	color: #C8275C;
+	font-weight: bold;
+}
+#showScore{
+	padding: 10px;
+	margin-right: 600px;
+	font-size: 30px;
+	color: #000000;
+}
+
+#score{
+    font-size: 30px;
+}
+
+#gameArea{
+    background-image:url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg"); 
+    background-size: auto;
+    background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 880px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+    position: relative;
+}
+
+img{
+    position: absolute;
+}
+
+#moveImg{
+    height: 150px;
+    width: 100px;
+	cursor:grab;
+}
+
+footer{
+	text-align: center;
+}
